@@ -41,9 +41,10 @@ void printArray(int arr[], int n){
 main(){	
 	int arr[] = {9, 0, 4, 7, 6, 1, 5, 3, 2};
 	int n = sizeof(arr)/sizeof(int);
-	// BubbleSort(arr, n);
-	// cout << "Array sau khi sắp xếp :  " << endl;
-	// printArray
+	BubbleSort(arr, n);
+	cout << "Array sau khi sắp xếp :  " << endl;
+	printArray;
+	
 	BubbleSortOptimize(arr, n);
 	cout << "\nArray sau khi sắp xếp :  " << endl;
 	printArray(arr, n);
